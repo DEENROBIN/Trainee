@@ -1,0 +1,22 @@
+<odoo>
+    <menuitem id="menu_dcl_stp_student_profile_root" name="Student Profile" sequence="1"/>
+
+    <!-- Configuration Parent -->
+    <menuitem id="menu_dcl_stp_student_configuration"
+              name="Configuration"
+              parent="menu_dcl_stp_student_profile_root"
+              sequence="2"/>
+
+
+
+    <!-- Report and Dashboard -->
+    <menuitem id="menu_student_report"
+              name="Report"
+              parent="menu_dcl_stp_student_profile_root"
+              sequence="3"/>
+
+    <menuitem id="menu_student_dashboard"
+              name="Dashboard"
+              parent="menu_dcl_stp_student_profile_root"
+              sequence="4"/>
+</odoo>

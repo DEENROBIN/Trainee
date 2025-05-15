@@ -1,0 +1,41 @@
+<odoo>
+    <!-- Action -->
+    <record id="action_dcl_stp_student_class" model="ir.actions.act_window">
+        <field name="name">Class</field>
+        <field name="res_model">dcl.stp.student.class</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menuitem -->
+    <menuitem id="dcl_stp_student_class"
+              name="Class"
+              parent="menu_dcl_stp_student_configuration"
+              action="action_dcl_stp_student_class"
+              sequence="10"/>
+
+    <!-- Tree View -->
+    <record id="view_dcl_stp_student_class_tree" model="ir.ui.view">
+        <field name="name">dcl.stp.student.class.tree</field>
+        <field name="model">dcl.stp.student.class</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_dcl_stp_student_class_form" model="ir.ui.view">
+        <field name="name">dcl.stp.student.class.form</field>
+        <field name="model">dcl.stp.student.class</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

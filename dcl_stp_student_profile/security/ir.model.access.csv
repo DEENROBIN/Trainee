@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id,perm_read,perm_write,perm_create,perm_unlink
+access_dcl_stp_student_class,access_dcl_stp_student_class,model_dcl_stp_student_class,,1,1,1,1
+access_dcl_stp_student_section,access_dcl_stp_student_section,model_dcl_stp_student_section,,1,1,1,1
+access_dcl_stp_student_institute,access_dcl_stp_student_institute,model_dcl_stp_student_institute,,1,1,1,1
